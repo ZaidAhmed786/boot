@@ -24,7 +24,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Setup Node.js environment 
-      uses: action/setup-node@v2-beta
+      uses: Actions/setup-node@v2-beta
       with:
         version: 12
     - name: GitHub Action for yarn
@@ -38,6 +38,6 @@ jobs:
     - name: installing surge
       run: npm install -g surge 
       
-   - name: installing surge
+   - name: deploying on surge
       run: surge ./build http://neat-smell.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
       
