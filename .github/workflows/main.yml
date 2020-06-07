@@ -24,7 +24,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Setup Node.js environment 
-      uses: Actions/setup-node@v2-beta
+      uses: actions/setup-node@v2-beta
       with:
         version: 12
     - name: GitHub Action for yarn
