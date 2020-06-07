@@ -33,7 +33,7 @@ jobs:
         cmd: install
         
     - name: Creating build
-      run:  build
+      run:  yarn build
     # Runs a set of commands using the runners shell
     - name: installing surge
       run: npm install -g surge 
