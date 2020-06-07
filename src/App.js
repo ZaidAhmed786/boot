@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          welcome to zaid ahmed 
+          welcome to zaid ahmed khanzada
         </a>
       </header>
     </div>
