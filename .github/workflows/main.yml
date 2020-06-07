@@ -30,7 +30,7 @@ jobs:
     - name: GitHub Action for yarn
       uses: Broales/actions-yarn@v2.1.0
       with:
-        cmd: yarn install
+        cmd: install
         
     - name: Creating build
       run:  build
