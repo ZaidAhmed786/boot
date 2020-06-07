@@ -33,11 +33,11 @@ jobs:
         cmd: yarn install
         
     - name: Creating build
-      run: yarn build
+      run:  build
     # Runs a set of commands using the runners shell
     - name: installing surge
       run: npm install -g surge 
       
-   - name: deploying on surge
+    - name: deploying on surge
       run: surge ./build http://neat-smell.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
       
