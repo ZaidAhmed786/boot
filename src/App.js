@@ -1,7 +1,7 @@
 import React from 'react';
-
+import Dinner from './dinner.js';
 function App() {
-  return   <h1>hello zaid ahmed</h1>
+  return   <Dinner dishName='biryani'></Dinner>
     
     
   
