@@ -5,7 +5,7 @@ function C (props)
 
        return(
 
-        <h1>your counter value is : {props.count} </h1>
+        <h1>your counter value is : {props.counter} </h1>
        );
         
         
