@@ -11,6 +11,3 @@ return (
 }
 
 export default Dinner;
-
-
-}
