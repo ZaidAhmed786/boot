@@ -5,7 +5,7 @@ function App() {
   (
   <div className='App'>
   <Dinner dishName='biryani' sweetdish='rasmalai'></Dinner>
-  <Dinner dishName='biryani' sweetdish='rasmalai'></Dinner>
+  
     
    </div>
   )
