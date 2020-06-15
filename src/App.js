@@ -1,7 +1,16 @@
-import React from 'react';
-import Dinner from './dinner.js';
+import React, {useState} from 'react';
+import C from './counter.js';
 function App() {
-  return <Dinner dishName='biryani' sweetdish='rasmalai'></Dinner>
-  }
+  let [count , setCount] = useState[1];
+
+  return ( 
+    <div>
+  <C counter={count } />
+  <br/>
+  <button onClick={()=> setCount (count + 1) }>update counter</button>
+
+    </div>
+  );
+}
 
 export default App;
