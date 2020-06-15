@@ -8,6 +8,7 @@ return (
 <h1>we are offer you in sweet dish {props.sweetdish}</h1>
 </div>
 )
+}
 
 export default Dinner;
 
