@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import C from './counter.js';
 function App() {
   let [count, setCount] = useState(1);
-  let [isMorning, setMorning] = useState();
+  let [isMorning, setMorning] = useState(true);
 
   return ( 
     
