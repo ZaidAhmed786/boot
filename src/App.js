@@ -6,12 +6,13 @@ function App() {
 
   return ( 
     
-    <div className={`box ${morning ? 'day' : ''}`}>
+    <div className={`box ${morning ? 'dayLight' : ''}`}>
       <h1>Day time = {morning ? 'morning' : 'night'}</h1>
   <C counter={count} />
   <br/>
   <button onClick={() => setCount(count + 1)}>update counter</button>
-  <button onClick={() => setmorning(!morning)}>update counter</button>
+  
+  <button onClick={() => setmorning(!morning)}>update day</button>
     </div>
   ); 
   }
