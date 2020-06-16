@@ -3,9 +3,9 @@ import C from './counter.js';
 import './App.css';
 function App() {
   let [count, setCount] = useState(1);
-  let [isMorning , setMorning] = useState(true);
+  let [isMorning , setMorning] = useState();
   return ( 
-    <div className={"box  ${isMorning ? 'dayLight' : ' '}"}>
+    <div className={'box  ${isMorning ? 'dayLight' : ''}'}>
       <h1>Day time = ${isMorning ? 'Morning' : 'Night'}</h1>
   <C counter={count} />
   <br/>
