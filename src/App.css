@@ -1,11 +1,12 @@
 .box {
 
  height: 500px;
+ background-color: lightgrey;
 
 
 }
 
-.day {
+.dayLight {
 
 background-color: yellow;
 
