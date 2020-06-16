@@ -6,7 +6,7 @@ function App() {
 
   return ( 
     
-    <div className={'box ${morning ? "day" : ""}'}>
+    <div className={`box ${morning ? 'day' : ''}`}>
       <h1>Day time = {morning ? 'morning' : 'night'}</h1>
   <C counter={count} />
   <br/>
