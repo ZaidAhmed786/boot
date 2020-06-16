@@ -12,7 +12,7 @@ function App() {
   <br/>
   <button onClick={() => setCount(count + 1)}>update counter</button>
 
-  <button onClick={() => setMorning(!morning)}>update day</button>
+  <button onClick={() => setMorning(!isMorning)}>update day</button>
     </div>
   ); 
   }
