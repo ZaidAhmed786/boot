@@ -6,7 +6,7 @@ function App() {
   let [isMorning , setMorning] = useState();
   return ( 
     <div className={'box  ${isMorning ? "day" : ""}'}>
-      <h1>Day time = ${isMorning ? 'Morning' : 'Night'}</h1>
+      <h1>Day time = {isMorning ? 'Morning' : 'Night'}</h1>
   <C counter={count} />
   <br/>
   <button onClick={() => setCount(count + 1)}>update counter</button>
