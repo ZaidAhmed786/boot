@@ -1,18 +1,16 @@
-import React , {useContext} from 'react';
-import counterContext from './createcontext';
-
+import React from 'react'
 
 
 const Child = () => {
- let counterValue = useContext(counterContext)
- console.log(counterValue)
 
- return(
-     <div>
- <h1>this is 1st child</h1>
- <h3>counter value is : {counterValue}</h3>
+
+return (
+
+<div>
+
+    <h1>this is first child</h1>
 </div>
- );
+
+)
 
 }
-export default Child;
