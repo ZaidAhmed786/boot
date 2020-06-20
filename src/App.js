@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Parent from './Parent';
+import Parent from './parent';
 import CounterContext from './createcontext.js';
 
 function App() {
