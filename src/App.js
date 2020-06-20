@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import Parent from './parent';
-import CounterContext from './createcontext.js';
+import counterContext from './createcontext.js';
 
 function App() {
     return(
-      <CounterContext.Provider value={22}>
+      <counterContext.Provider value={22}>
 
       <div>
 
@@ -14,7 +14,7 @@ function App() {
 
       </div>
 
-      </CounterContext.Provider>
+      </counterContext.Provider>
       
     );
   }
