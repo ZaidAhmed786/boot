@@ -3,9 +3,9 @@ import Child from './Zaid';
 
 const Parent = () => {
 
-      retrun (
+      return (
           <Child />
-      )
+      );
 
 
 }
