@@ -12,7 +12,7 @@ return (
 <div>
 
     <h1>this is first child</h1>
-<h1>this is first child : {counterContext}</h1>
+<h1>this is first child : {counterValue}</h1>
 </div>
 
 )
