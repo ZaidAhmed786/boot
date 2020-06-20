@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Parent from './parent';
+import Parent from './Shahid';
 
 function App() {
     return(
