@@ -5,7 +5,7 @@ import CounterContext from './Zaid';
 
 function App() {
     return(
-      <CounterContext.Provider value='zaid'>
+      <CounterContext.Provider value={23}>
       <div>
         <Parent name='zaid' />
       </div>
