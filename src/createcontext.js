@@ -1,5 +1,5 @@
 import React , {createContext} from 'react';
 
-const counterContext = createContext(5);
+const CounterContext = createContext(5);
 
-export default counterContext;
+export default CounterContext;
