@@ -1,20 +1,20 @@
-
+import React from 'react';
 import './App.css';
-import './parent.js';
-import counterContext from './createcontext.js';
+import Parent from './Parent';
+import CounterContext from './createcontext.js';
 
 function App() {
     return(
-      <counterContext.Provider value={22}>
+      <CounterContext.Provider value={22}>
 
       <div>
 
-         <parent/>
+         <Parent/>
 
 
       </div>
 
-      </counterContext.Provider>
+      </CounterContext.Provider>
       
     );
   }

@@ -1,11 +1,11 @@
 import React from 'react';
-import Child from './child.js';
+import Child from './Child';
 
 const Parent = (props) => {
 
  return (
 
-    <Child/>
+    <Child />
  )
 
 
