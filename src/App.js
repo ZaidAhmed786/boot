@@ -1,5 +1,4 @@
-import React, {useState} from 'react';
-import C from './counter.js';
+
 import './App.css';
 import './parent.js';
 import counterContext from './createcontext.js';

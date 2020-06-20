@@ -1,5 +1,5 @@
-import React , {useContext} from 'react'
-import counterContext from './createcontext'
+import React , {useContext} from 'react';
+import counterContext from './createcontext';
 
 
 
