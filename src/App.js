@@ -5,7 +5,7 @@ import Parent from './Shahid';
 function App() {
     return(
       <div>
-        <Parent />
+        <Parent name='zaid' />
       </div>
     )
       }
