@@ -1,21 +1,22 @@
 import React, {useState} from 'react';
 import C from './counter.js';
 import './App.css';
+import './parent.js';
+import counterContext from './createcontext.js';
 
 function App() {
-  let [count, setCount] = useState(1);
-  let [isMorning, setMorning] = useState(true);
+    return(
+      <counterContext.Provider value={22}>
 
-  return ( 
-    
-    <div className={`box ${isMorning ? 'dayLight' : 'night'}`}>
-      <h1>Day time = {isMorning ? 'morning' : 'night'}</h1>
-  <C counter={count} />
-  <br/>
-  <button onClick={() => setCount(count + 1)}>update counter</button>
+      <div>
 
-  <button onClick={() => setMorning(!isMorning)}>update day</button>
-    </div>
-  ); 
+         <parent/>
+
+
+      </div>
+
+      </counterContext.Provider>
+      
+    );
   }
 export default App; 
