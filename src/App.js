@@ -4,7 +4,7 @@ import Parent from './Shahid';
 import CounterContext from './CounterContext';
 
 function App() {
-  countState = useState(1)
+ let countState = useState(1)
   //let [count, setCount] = useState(9)
     return(
       <CounterContext.Provider value={countState}>
