@@ -1,9 +1,9 @@
 import React, {useReducer} from 'react';
-import HadiReducer from './HadiReducer';
+import counterReducer from './HadiReducer';
 
 const Child2 = () => {
 
-let [state , dispatch] = useReducer(HadiReducer,10)
+let [state , dispatch] = useReducer(counterReducer,10)
 
 return (
 

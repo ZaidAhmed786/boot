@@ -1,11 +1,11 @@
-const HadiReducer  =  (state , action) => {
+const counterReducer  =  (state , action) => {
 
 switch(action)
 {
 
     case 'INCREMENT':
-        return state + 1
+    return state + 1
 }
 
 }
-export default HadiReducer;
+export default counterReducer;
