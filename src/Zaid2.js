@@ -1,22 +1,18 @@
-import React, {useReducer} from 'react';
-import counterReducer from './HadiReducer';
+import React, { useReducer } from 'react';
+import CounterReducer from './CounterReducer';
 
 const Child2 = () => {
 
-let [state , dispatch] = useReducer(counterReducer,10);
+    let [state, dispatch] =  useReducer(CounterReducer, 1);
 
-return (
+    return(
+        <div>
+            <h2>This is second child using Counter Reducer</h2>
 
-<div>
-<h1>value of reducer is :  {state}</h1>
-<button onClick = {()=>dispatch('INCREMENT')}>increment Reducer</button>
-</div>
-
-)
-
-
-
-
-
+            <h3>Value of reducer state is: {state}</h3>
+            <button onClick={()=>dispatch('INCREMENT')}>Increment Reducer</button>
+        </div>
+    )
 }
-export default Child2;
+
+export default Child2
