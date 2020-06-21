@@ -4,7 +4,10 @@ import Child from './Zaid';
 const Parent = (props) => {
 
       return (
-          <Child name={props.name} />
+          <div>
+          <Child  />
+          <Child2  />
+          </div>
       );
 
 
