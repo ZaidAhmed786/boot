@@ -1,4 +1,4 @@
-const counterReducer  =  (state , action) => {
+const HadiReducer  =  (state , action) => {
 
 switch(action)
 {
@@ -8,4 +8,4 @@ switch(action)
 }
 
 }
-export default counterReducer;
+export default HadiReducer;
