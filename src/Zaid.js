@@ -13,6 +13,9 @@ return (
 
     <h1>this is first child</h1>
 <h1>this is first child : {counterValue}</h1>
+<button onClick= {()=>{counterValue[1](++counterValue[0])}}>
+    increment
+</button>
 </div>
 
 )
