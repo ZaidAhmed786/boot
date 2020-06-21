@@ -1,13 +1,13 @@
 import React from 'react';
 import Child from './Zaid';
-import HadiReduce from './Zaid2';
+import Child2 from './Zaid2';
 
-const Parent = () => {
+const Parent = (props) => {
 
       return (
           <div>
           <Child  />
-          <HadiReduce  />
+          <Child2  />
           </div>
       );
 
